@@ -1,0 +1,48 @@
+########### 수정해야 하는 부분 ###########
+
+# Book settings
+title: YOLO로 배우는 컴퓨터 비전
+author: AI CASTLE (edu@aicastle.io)
+copyright: "2024"
+logo: logos/logo.png
+
+html:
+  use_issues_button: false
+  use_repository_button: false
+  favicon: "logos/favicon.ico"  # A path to a favicon image
+  extra_navbar: "" # Powered by <a href="https://jupyterbook.org">Jupyter Book</a>  # Will be displayed underneath the left navbar.
+  comments:
+    hypothesis: false
+    utterances: false
+      # repo: "aicastle-school/test"  # 작동을 안함
+  # announcement: "announcement입니다." # A banner announcement at the top of the site.
+
+# repository 설정 해야 코랩 연결 연동됨
+repository:
+  url: https://github.com/aicastle-school/test  # The URL to your book's repository
+  path_to_book: "book"  # A path to your book's folder, relative to the repository root.
+  branch: main  # Which branch of the repository should be used when creating links
+
+
+
+
+########### 수정 필요 없음 ###########
+
+execute:
+  execute_notebooks: 'off'
+
+latex:
+  latex_documents:
+    targetname: book.tex
+
+launch_buttons:
+  # notebook_interface: classic  # The interface interactive links will activate ["classic", "jupyterlab"]
+  # binderhub_url: ""  # The URL of the BinderHub (e.g., https://mybinder.org)
+  # jupyterhub_url: ""  # The URL of the JupyterHub (e.g., https://datahub.berkeley.edu)
+  # thebe: false  # Add a thebe button to pages (requires the repository to run on Binder)
+  colab_url: "https://colab.research.google.com" # The URL of Google Colab (https://colab.research.google.com)
+
+sphinx:
+  config:
+    show_authors: false
+    html_show_copyright: false

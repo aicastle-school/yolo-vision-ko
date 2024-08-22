@@ -1,0 +1,7 @@
+jupyter-book
+notebook
+nbconvert
+Pillow
+# jupyterlab
+# jupyterlab_myst
+# myst-parser

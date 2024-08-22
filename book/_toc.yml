@@ -1,0 +1,63 @@
+format: jb-book
+
+# 인트로
+root: intro
+
+parts:
+### Contents
+- caption: Contents
+  chapters:
+
+  # section 01
+  - file: contents/s01/u00
+    sections:
+    - file: contents/s01/u01
+    - file: contents/s01/u02
+    - file: contents/s01/u03
+    - file: contents/s01/u04
+    - file: contents/s01/u05
+    - file: contents/s01/u06
+
+  # section 02
+  - file: contents/s02/u00
+    sections:
+    - file: contents/s02/u01
+    - file: contents/s02/u02
+    - file: contents/s02/u03
+    - file: contents/s02/u04
+    - file: contents/s02/u05
+    - file: contents/s02/u06
+
+  # section 03
+  - file: contents/s03/u00
+    sections:
+    - file: contents/s03/u01
+    - file: contents/s03/u02
+    - file: contents/s03/u03
+    - file: contents/s03/u04
+    - file: contents/s03/u05
+    - file: contents/s03/u06
+
+  # section 04
+  - file: contents/s04/u00
+    sections:
+    - file: contents/s04/u01
+    - file: contents/s04/u02
+    - file: contents/s04/u03
+    - file: contents/s04/u04
+    - file: contents/s04/u05
+    - file: contents/s04/u06
+
+### 교육 안내
+
+
+- caption: Resources
+  chapters:
+  - url: https://en.test.aicastle.school
+    title: English
+  - url: https://inf.run/test
+    title: 온라인 강의 (인프런)
+  - url: https://forms.gle/xeDv2YRJzGTuAKQ86
+    title: 출강 (위탁교육) 신청
+  - url: https://aicastle.school
+    title: AI Castle School
